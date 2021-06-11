@@ -1,0 +1,11 @@
+10 79
+beijing 0.9
+shanghai 0.9
+wuhan 0.9
+haerbin 0.9
+chengdu 0.5
+guangzhou 0.5
+xian 0.5
+wulumuqi 0.2
+lasa 0.2
+haikou 0.2
