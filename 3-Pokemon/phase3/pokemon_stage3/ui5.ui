@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="ui5_return">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>返回</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ui5_levelUp">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>130</y>
+     <width>231</width>
+     <height>351</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>升级赛
+
+
+
+
+
+选择宝可梦与服务器进行虚拟决斗
+
+胜利可以获得大量经验
+
+失败可以获得少量经验
+
+失败不会失去宝可梦</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ui5_battle">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>130</y>
+     <width>231</width>
+     <height>351</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>决斗赛
+
+
+
+
+
+选择宝可梦与服务器进行虚拟决斗
+
+可以为宝可梦获得少量经验
+
+胜利可以获得该战胜的宝可梦
+
+失败则会由用户选择失去一个宝可梦</string>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="ui5_rules">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>20</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

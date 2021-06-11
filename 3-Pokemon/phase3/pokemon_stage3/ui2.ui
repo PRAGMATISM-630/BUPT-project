@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QToolButton" name="ui2_myPokemon">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>30</y>
+     <width>120</width>
+     <height>140</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>宝可梦</string>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="ui2_allPlayers">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>180</y>
+     <width>120</width>
+     <height>140</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>玩家</string>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="ui2_returnSignIn">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>420</y>
+     <width>120</width>
+     <height>140</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>登出</string>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="ui2_saveAndQuit_2">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>420</y>
+     <width>120</width>
+     <height>140</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>保存并退出</string>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="ui2_battle">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>200</y>
+     <width>210</width>
+     <height>230</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>战斗</string>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="ui2_prize">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>180</y>
+     <width>120</width>
+     <height>140</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>战绩</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
