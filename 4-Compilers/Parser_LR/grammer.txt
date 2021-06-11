@@ -1,0 +1,13 @@
+#nonterminals
+E T F
+
+#terminals
++ - * / ( ) num
+
+#startSymbol
+E
+
+#productions
+E -> E + T | E - T | T
+T -> T * F | T / F | F
+F -> ( E ) | num

@@ -1,0 +1,7 @@
+Symbol Table:
+
+a
+b
+main
+printf
+strcpy

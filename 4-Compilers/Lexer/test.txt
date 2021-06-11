@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<string.h>
+#define df
+
+int main()
+{
+	#ifdef df
+
+	char a[10]="asdfgh
+	char $[10e+]
+	strcpy(b,a)
+	printf("%s",b)
+
+	#endif
+}
+/*
+Unterminated
+comment
+

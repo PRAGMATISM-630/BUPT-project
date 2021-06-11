@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\Lexer">
+      <UniqueIdentifier>{fd3b4510-2f9f-421a-a01f-26923adfc261}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Lexer">
+      <UniqueIdentifier>{6e6c9c31-4776-4ccd-bafa-f2ebae116544}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Parser_LL">
+      <UniqueIdentifier>{7edd0cfa-af0d-4dcc-8823-511bdcad173c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Parser_LL">
+      <UniqueIdentifier>{3e674cbe-e111-4a32-85c7-3440b27fbec7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Lexer\DFA.h">
+      <Filter>头文件\Lexer</Filter>
+    </ClInclude>
+    <ClInclude Include="Lexer\Lexer.h">
+      <Filter>头文件\Lexer</Filter>
+    </ClInclude>
+    <ClInclude Include="Lexer\TokenType.h">
+      <Filter>头文件\Lexer</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser_LL\Parser_LL.h">
+      <Filter>头文件\Parser_LL</Filter>
+    </ClInclude>
+    <ClInclude Include="arg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Lexer\DFA.cpp">
+      <Filter>源文件\Lexer</Filter>
+    </ClCompile>
+    <ClCompile Include="Lexer\Lexer.cpp">
+      <Filter>源文件\Lexer</Filter>
+    </ClCompile>
+    <ClCompile Include="Parser_LL\Parser_LL.cpp">
+      <Filter>源文件\Parser_LL</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Lexer\sourceCode.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="Parser_LL\grammer.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="test.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

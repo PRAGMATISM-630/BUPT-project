@@ -1,0 +1,22 @@
+Error counts: 4
+Error Stream:
+
+Row: 9
+Error Type: STRING_ERROR: (Lack the right quote)
+"asdfgh
+
+Row: 10
+Error Type: ILLEGAL_CHAR
+$
+
+Row: 10
+Error Type: NUMERIC_ERROR (Incomplete numeric constant)
+10e+
+
+Row: 16
+Error Type: COMMENT_ERROR: (Unterminated comment)
+/*
+Unterminated
+comment
+
+

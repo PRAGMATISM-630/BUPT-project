@@ -1,0 +1,29 @@
+Token Stream:
+
+<             KEYWORD ,        int	>
+<          IDENTIFIER ,       main	>
+<       L_PARENTHESIS ,          (	>
+<       R_PARENTHESIS ,          )	>
+<             L_BRACE ,          {	>
+<             KEYWORD ,       char	>
+<          IDENTIFIER ,          a	>
+<           L_BRACKET ,          [	>
+<   NUMERIC_CONSTANTS ,         10	>
+<           R_BRACKET ,          ]	>
+<              ASSIGN ,          =	>
+<             KEYWORD ,       char	>
+<           L_BRACKET ,          [	>
+<           R_BRACKET ,          ]	>
+<          IDENTIFIER ,     strcpy	>
+<       L_PARENTHESIS ,          (	>
+<          IDENTIFIER ,          b	>
+<               COMMA ,          ,	>
+<          IDENTIFIER ,          a	>
+<       R_PARENTHESIS ,          )	>
+<          IDENTIFIER ,     printf	>
+<       L_PARENTHESIS ,          (	>
+<      STRING_LITERAL ,       "%s"	>
+<               COMMA ,          ,	>
+<          IDENTIFIER ,          b	>
+<       R_PARENTHESIS ,          )	>
+<             R_BRACE ,          }	>
